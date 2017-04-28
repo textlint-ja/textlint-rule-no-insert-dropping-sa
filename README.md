@@ -1,4 +1,4 @@
-# textlint-rule-ja-no-insert-dropping-sa [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-insert-dropping-sa.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-insert-dropping-sa)
+# textlint-rule-no-insert-dropping-sa [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-no-insert-dropping-sa.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-no-insert-dropping-sa)
 
 サ抜き、サ入れ表現の誤用をチェックするtextlintルール
 
@@ -39,7 +39,7 @@
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-ja-no-insert-dropping-sa
+    npm install @textlint-ja/textlint-rule-no-insert-dropping-sa
 
 ## Usage
 
@@ -48,7 +48,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "ja-no-insert-dropping-sa": true
+        "@textlint-ja/textlint-rule-no-insert-dropping-sa": true
     }
 }
 ```
@@ -56,7 +56,7 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule ja-no-insert-dropping-sa README.md
+textlint --rule @textlint-ja/textlint-rule-no-insert-dropping-sa README.md
 ```
 
 ## 元ネタ
@@ -67,7 +67,7 @@ textlint --rule ja-no-insert-dropping-sa README.md
 
 ## Changelog
 
-See [Releases page](https://github.com/textlint-ja/textlint-rule-ja-no-insert-dropping-sa/releases).
+See [Releases page](https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa/releases).
 
 ## Running tests
 
@@ -79,7 +79,7 @@ Install devDependencies and Run `npm test`:
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/textlint-ja/textlint-rule-ja-no-insert-dropping-sa/issues).
+For bugs and feature requests, [please create an issue](https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

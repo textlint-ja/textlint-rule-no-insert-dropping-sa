@@ -3,7 +3,7 @@
 const TextLintTester = require("textlint-tester");
 const tester = new TextLintTester();
 // rule
-const rule = require("../src/textlint-rule-ja-no-insert-dropping-sa");
+const rule = require("../src/textlint-rule-no-insert-dropping-sa");
 tester.run("rule", rule, {
     valid: [
         // no problem
