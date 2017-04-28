@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "@textlint-ja/textlint-rule-no-insert-dropping-sa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "サ抜き、サ入れ表現の誤用をチェックするtextlintルール",
   "main": "lib/textlint-rule-no-insert-dropping-sa.js",
   "scripts": {
