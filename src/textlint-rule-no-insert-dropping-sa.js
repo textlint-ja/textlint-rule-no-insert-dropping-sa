@@ -47,7 +47,7 @@ const reporter = (context) => {
     return {
         [Syntax.Str](node){
             const text = getSource(node);
-            return kuromojin(text).then(tokens => {
+            return kuromojin.tokenize(text).then(tokens => {
                 const matchResults = matchAll(tokens);
                 matchResults.forEach(matchResult => {
                     const firstToken = matchResult.tokens[0];
