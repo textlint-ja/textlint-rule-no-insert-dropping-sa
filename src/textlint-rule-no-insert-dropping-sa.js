@@ -1,9 +1,8 @@
 // MIT © 2017 azu
 "use strict";
-const assert = require("assert");
 const arrayFindIndex = require("array-find-index");
 const kuromojin = require("kuromojin");
-const createMatcher = require("morpheme-match-all");
+const { createMatcher} = require("morpheme-match-all");
 const saInsertDict = require("./dict/sa-insert-dict");
 const saDroppingDict = require("./dict/sa-dropping-dict");
 const matchAll = createMatcher(saInsertDict.concat([

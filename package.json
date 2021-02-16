@@ -31,11 +31,11 @@
   },
   "homepage": "https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa",
   "devDependencies": {
-    "textlint-scripts": "^1.2.4"
+    "textlint-scripts": "^3.0.0"
   },
   "dependencies": {
     "array-find-index": "^1.0.2",
     "kuromojin": "^2.1.1",
-    "morpheme-match-all": "^1.1.0"
+    "morpheme-match-all": "^2.0.5"
   }
 }
