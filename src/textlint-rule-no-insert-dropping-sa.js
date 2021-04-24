@@ -1,10 +1,11 @@
 // MIT © 2017 azu
 "use strict";
-const arrayFindIndex = require("array-find-index");
-const kuromojin = require("kuromojin");
-const { createMatcher} = require("morpheme-match-all");
-const saInsertDict = require("./dict/sa-insert-dict");
-const saDroppingDict = require("./dict/sa-dropping-dict");
+import { tokenize } from "kuromojin";
+import arrayFindIndex from "array-find-index";
+import { createMatcher } from "morpheme-match-all";
+import saInsertDict from "./dict/sa-insert-dict";
+import saDroppingDict from "./dict/sa-dropping-dict";
+
 const matchAll = createMatcher(saInsertDict.concat([
     saDroppingDict
 ]));
@@ -44,9 +45,9 @@ const replaceWithCaptureTokens = (text, tokens, actualTokens) => {
 const reporter = (context) => {
     const { Syntax, RuleError, report, fixer, getSource } = context;
     return {
-        [Syntax.Str](node){
+        [Syntax.Str](node) {
             const text = getSource(node);
-            return kuromojin.tokenize(text).then(tokens => {
+            return tokenize(text).then(tokens => {
                 const matchResults = matchAll(tokens);
                 matchResults.forEach(matchResult => {
                     const firstToken = matchResult.tokens[0];
@@ -75,7 +76,7 @@ const reporter = (context) => {
     }
 };
 
-module.exports = {
+export default {
     linter: reporter,
     fixer: reporter
 };

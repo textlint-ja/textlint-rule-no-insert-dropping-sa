@@ -3,7 +3,7 @@
 // 「サ抜き」方向の検出
 // 本来あるべき「サ」が抜け落ちる「サ抜き」の場合、「サ」が確実に入る用例でおかしな「サ抜け」は、「無そう」「良そう」の２種類
 // http://www.anlp.jp/proceedings/annual_meeting/2012/pdf_dir/B1-2.pdf
-module.exports = {
+export default {
     message: "「さ」が抜けています。",
     expected: "$1さ$2",
     // https://azu.github.io/morpheme-match/?text=これは問題無そう
