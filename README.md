@@ -1,4 +1,4 @@
-# textlint-rule-no-insert-dropping-sa [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-no-insert-dropping-sa.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-no-insert-dropping-sa)
+# textlint-rule-no-insert-dropping-sa [![Actions Status: test](https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa/workflows/test/badge.svg)](https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa/actions?query=workflow%3A"test")
 
 サ抜き、サ入れ表現の誤用をチェックするtextlintルール
 
