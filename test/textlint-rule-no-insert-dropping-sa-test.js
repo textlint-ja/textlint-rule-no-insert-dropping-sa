@@ -1,9 +1,8 @@
 // MIT © 2017 azu
 "use strict";
-const TextLintTester = require("textlint-tester");
+import TextLintTester from "textlint-tester";
+import rule from "../src/textlint-rule-no-insert-dropping-sa";
 const tester = new TextLintTester();
-// rule
-const rule = require("../src/textlint-rule-no-insert-dropping-sa");
 tester.run("rule", rule, {
     valid: [
         // no problem

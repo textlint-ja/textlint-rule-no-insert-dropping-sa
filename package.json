@@ -35,7 +35,8 @@
   },
   "dependencies": {
     "array-find-index": "^1.0.2",
-    "kuromojin": "^2.1.1",
-    "morpheme-match-all": "^2.0.5"
+    "kuromojin": "^3.0.0",
+    "morpheme-match-all": "^2.0.5",
+    "textlint-tester": "^5.3.4"
   }
 }

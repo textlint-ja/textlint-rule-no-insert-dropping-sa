@@ -4,7 +4,7 @@
 //  動詞＋助動詞「たい」＋「そう」の形式は、本来どこをとっても「サ」が入る余地の無い
 // 形式のはずだが、何故か「サ」が入る例が散見される
 // http://www.anlp.jp/proceedings/annual_meeting/2012/pdf_dir/B1-2.pdf
-module.exports = [
+export default [
     {
         message: "不要な「さ」が挿入されています。",
         expected: "$2$3",
