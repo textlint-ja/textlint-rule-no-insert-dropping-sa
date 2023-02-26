@@ -4,7 +4,7 @@
 
 「さ」を余計にいれている、逆に「さ」が抜けている文をチェックする[textlint](https://github.com/textlint/textlint "textlint")ルールです。
 
-![img](https://monosnap.com/file/UBfxUYEvlo3vACBM9qTzZ9wyh4XxTO.png)
+![新規サ抜き・サ入れ表現から見る誤用と正用の分析](https://user-images.githubusercontent.com/19714/221408953-d9dc9803-d62f-4a32-b8de-ca8b4401df31.png)
 
 [新規サ抜き・サ入れ表現から見る誤用と正用の分析 - 寺﨑知之](http://www.anlp.jp/proceedings/annual_meeting/2012/pdf_dir/B1-2.pdf)より引用。
 
