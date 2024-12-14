@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa",
   "devDependencies": {
-    "textlint-scripts": "^12.0.1",
+    "textlint-scripts": "^13.4.1",
     "textlint-tester": "^12.0.0"
   },
   "dependencies": {
